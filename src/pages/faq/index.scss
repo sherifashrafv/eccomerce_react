@@ -1,0 +1,34 @@
+.page-heading small,
+.woocommerce .woocommerce-shop-header--title .woocommerce-result-count {
+  display: block;
+  margin-top: 10px;
+}
+.page-heading .right-aligned {
+  margin-left: auto;
+}
+.breadcrumb {
+  justify-content: end;
+  font-size: 12px !important;
+}
+.breadcrumb span {
+  display: inline-block;
+  color: #b3b3b3;
+  text-transform: uppercase;
+}
+.breadcrumb > span {
+  padding: 0 6px;
+}
+.bread-crumb_link span {
+  color: #222 !important;
+}
+.accord {
+  font-size: 15px;
+  padding: 10px;
+}
+.accord-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+.icon-accord {
+  font-size: 25px;
+}

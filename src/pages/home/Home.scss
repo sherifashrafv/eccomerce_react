@@ -1,0 +1,131 @@
+.swiper-slide {
+  img {
+    width: 100%;
+  }
+}
+.background_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.img_text {
+  width: 55%;
+}
+.btn_brdr {
+  margin-top: 3rem;
+  background: transparent;
+  border: 1px solid white !important;
+  color: white !important;
+  text-decoration: none;
+  padding: 9px 35px;
+  transition: 0.5s;
+  &:hover {
+    background-color: white;
+    color: black !important;
+    font-weight: 500;
+  }
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  color: white !important;
+}
+.men_img {
+  // width: 90%;
+  object-fit: cover;
+  height: 600px;
+  object-position: 20px 53px;
+  // height: 30%;
+}
+.mixin_imgs {
+  div {
+    width: calc(100% / 2);
+  }
+}
+.btn_darkness {
+  transition: 0.5s ease-in-out;
+  &:hover {
+    background: transparent !important;
+    border: 1px solid black !important;
+    border-style: d;
+    color: black !important;
+  }
+}
+.lag_position {
+  z-index: 99999999999;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ddd !important;
+  width: 93%;
+  font-size: 35px;
+}
+.categories_sections {
+  position: relative;
+  overflow: hidden;
+  img {
+    transition: all 500ms ease-out;
+  }
+  &:hover img {
+    transform: scale(1.1) rotate(-2deg);
+  }
+}
+.overlay_abs {
+  position: absolute !important;
+  width: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.4);
+}
+.banner_text_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 300;
+  white-space: nowrap;
+  line-height: 1;
+  text-align: center;
+  strong {
+    border: 2px solid #fff;
+    border-left: 0;
+    border-right: 0;
+    display: block;
+    margin: 5px 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+  }
+}
+.lab_wpb_banner {
+  margin-bottom: 20px;
+  margin-top: 70px;
+  /* background: #fff; */
+  padding: 20px 40px;
+  border: 1px solid #eee;
+  box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 4px #eee;
+}
+.btn_dark {
+  background-color: #000;
+  color: #fff;
+  border-radius: 2px;
+  padding: 7px 10px;
+  font-size: 15px;
+}
+.men_div {
+  width: 100%;
+  div {
+    width: calc(100% / 2);
+  }
+}

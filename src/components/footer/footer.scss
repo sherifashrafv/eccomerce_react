@@ -1,0 +1,88 @@
+.site-footer {
+  background: #222;
+  padding: 40px 0;
+  font-size: 14px;
+  color: #888;
+  font-weight: 300;
+}
+
+.widget h3 {
+  margin: 0 0 15px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #eee;
+}
+.menu-whats-hot-container .menu {
+  li {
+    a {
+      color: white;
+      text-decoration: none;
+      color: #959595;
+      &:hover {
+        text-decoration: underline;
+        color: white;
+      }
+    }
+  }
+}
+.social-networks {
+  // display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  // grid-template-columns: repeat(3, 27px) !important;
+  li {
+    width: calc(100% / 3);
+    a {
+      // padding: 15px;
+      background-color: #3a3a3a;
+      color: #4d4d4d;
+      // font-size: 15px;
+      // padding: 15px;
+    }
+  }
+}
+.site-footer .footer-bottom {
+  border-top: 1px solid #eee;
+  border-color: #3a3a3a;
+  padding: 40px 0 0;
+  margin-top: 20px;
+}
+a {
+  // color: #4d4d4d;
+  // text-decoration: none;
+}
+.footer-menu {
+  color: #3a3a3a;
+}
+.footer-menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+// .pull-right {
+//   float: right !important;
+// }
+.payment-methods {
+  list-style: none;
+}
+.payment-methods li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.payment-methods li a {
+  opacity: 0.5;
+}
+.anchor_link_dark {
+  color: #4d4d4d;
+  &:hover {
+    color: #7b599b;
+    text-decoration: underline !important;
+  }
+}
+.anchor_link {
+  color: #959595;
+  &:hover {
+    color: #7b599b;
+    text-decoration: underline !important;
+  }
+}

@@ -1,0 +1,32 @@
+// .page-heading .col {
+//   // padding: 0 15px;
+//   width: 100%;
+//   display: -webkit-flex;
+//   display: flex;
+//   -webkit-align-items: center;
+//   align-items: center;
+// }
+.contact-form .form-control {
+  background: #eee;
+}
+.send-message {
+  background: black !important;
+  border: none !important;
+  border-radius: 2px !important;
+}
+.contact-information {
+  padding-left: 60px;
+}
+.page-heading {
+  margin: 35px -15px;
+  display: -webkit-flex;
+  display: flex;
+}
+.page-heading:before {
+  content: " ";
+  display: table;
+}
+.page-heading .col {
+  padding: 0 15px;
+  width: 100%;
+}

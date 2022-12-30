@@ -1,0 +1,128 @@
+.box-loader {
+  height: 700px;
+}
+form.cart {
+  margin-bottom: 40px;
+  &::before {
+    content: " ";
+    display: table;
+  }
+}
+.quantity {
+  float: left;
+  margin-right: 20px;
+}
+.buttons_added:before {
+  content: " ";
+  display: table;
+}
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.buttons_added input {
+  display: block;
+  float: left;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border: 0;
+  background-color: transparent;
+  outline: 0;
+  font-size: 18px;
+  height: 45px;
+  box-sizing: border-box;
+}
+.quantity.buttons_added input.input-text {
+  width: 50%;
+  border: 1px solid #fff;
+  border-top: 0;
+  border-bottom: 0;
+  text-indent: 0;
+  -moz-appearance: textfield;
+}
+.quantity.buttons_added input.plus {
+  width: 25%;
+}
+.quantity.buttons_added {
+  display: block;
+  width: 155px;
+  background: #eee;
+  border-radius: 2px;
+}
+.quantity.buttons_added input.minus,
+.woocommerce .quantity.buttons_added input.plus {
+  width: 25%;
+}
+.wp-element-button {
+  float: left;
+  background: #eee;
+  color: #222;
+  font-size: 17px;
+  height: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 300;
+  border: none;
+}
+.product_meta {
+  margin-bottom: 40px;
+}
+.product_meta > span {
+  display: block;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+.product-image {
+  img {
+    height: 400px;
+  }
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #eee;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  position: relative;
+  animation: pulse 1s linear infinite;
+}
+.loader:after {
+  content: "";
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border: 5px solid #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: scaleUp 1s linear infinite;
+}
+@keyframes scaleUp {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  60%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes pulse {
+  0%,
+  60%,
+  100% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+}
